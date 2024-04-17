@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <title>Shop Shop</title>
+</head>
+
+<body>
+
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">SmartphoneHub</a>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    <li class="nav__item"><a href="#Login" class="nav__link">Login/Sign Up</a></li>
+                    <li class="nav__item"><a href="#team" class="nav__link">Team</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="l-main" id="back">
+        <div class="custom-shape-divider-bottom-1631602924">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <div class="home__img">
+                    <img src="assets/img/phone.png" alt="" data-speed="2" class="move">
+                </div>
+
+                <div class="home__data">
+                    <h1 class="home__title">Smartphones <br> Hub</h1><br>
+                    <p class="home__description">Let's The Shoppers Shop <br> On The Great Occasion Of Diwali.</p>
+                    <a href="smartphone.html" class="home__button">Shop Now...</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/SmartphonseHub.png" alt="" width="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">About </h2>
+                    <span class="about__profession">SmartphoneHub</span>
+                    <p class="about__text">
+                        It's Been 10 Year's To Us For Selling Good Quality Smartphones And Giving Best Services To All
+                        Customers.
+                        <br>
+                        Since Covid We Are Try To Give Best Service To Customers And We Always Ensure Your Safety At The
+                        Time Of Delivery.
+
+                    </p>
+
+
+                    <div class="about__social">
+                        <a href="#" class="about__social-icon"><i class='bx bxl-twitter'></i></a>
+                        <a href="#" class="about__social-icon"><i class='bx bxl-instagram'></i></a>
+                    </div>
+                </div>
+
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <center>
+                <video width="80%" height="80%" controls autoplay>
+                    <source src="assets/img/Introvideo (1).mp4" type="video/mp4">
+                    <source src="assets/img/Introvideo (1).ogg" type="video/ogg">
+
+                </video>
+            </center>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;
+        </section>
+
+
+
+        <section class="w3l-simple-contact-form1" id="contact">
+
+            <div class="contact-form section-gap">
+                <div class="wrapper">
+                    <div class="text-center">
+                        <h1 style="font-size: 40px; ">Contact Me</h1>
+                        <br><br>
+                    </div>
+
+                    <div class="contact-form" style="max-width: 450px; margin: 0 auto;">
+
+                        <div class="form-mid">
+                            <form action="javascript:sendmail()" method="post">
+                                <div class="field" style="display: flex;flex-flow: row; padding: 1px;">
+                                    <input type="text" class="form-control" name="Name" id="Name" placeholder="Name"
+                                        required="">
+                                    &nbsp;&nbsp;
+                                    <input type="text" class="form-control" name="Lastname" id="Lastname"
+                                        placeholder="Last Name" required="">
+                                </div>
+                                <div class="field">
+                                    <input type="email" class="form-control" name="Sender" id="Sender"
+                                        placeholder="Email" required="">
+                                </div>
+                                <div class="field">
+                                    <input type="text" name="pno" class="form-control" id="pno"
+                                        placeholder="Phone Number" required="required">
+                                </div>
+                                <textarea name="Message" class="form-control" id="Message" placeholder="Message"
+                                    required=""></textarea>
+                                <button type="submit" class="btn btn-contact">Send Message</button>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script>
+            function sendmail() {
+
+                var name = $('#Name').val();
+                var slastname = $('#Lastname').val();
+                var email = $('#Sender').val();
+                var spno = $('#pno').val();
+                var message = $('#Message').val();
+
+
+
+                var Body = 'Name: ' + name + '<br>Last Name: ' + slastname + '<br>Email: ' + email + '<br>Phone No : ' + spno + '<br>Message: ' + message;
+
+                Email.send({
+                    Host: "smtp.gmail.com",
+                    Username: "personalportfoliowebsites@gmail.com",
+                    Password: "vedantd12",
+                    To: "vedantdhamale11@gmail.com",
+                    From: "personalportfoliowebsites@gmail.com",
+                    Subject: "New message on contact from " + name,
+                    Body: Body
+                }).then(
+                    message => {
+                        if (message == 'OK') {
+                            alert('Your mail has been send. Thank you for connecting.');
+                        }
+                        else {
+                            console.error(message);
+                            alert('There is error at sending message. ')
+
+                        }
+                    }
+                );
+            }
+        </script>
+        </script>
+
+
+        <section id="team">
+            <div class="container">
+                <h1>Our Team</h1>
+                <br><br><br><br>
+                <div class="row">
+                    <div class="col">
+                        <img src="assets/img/harshimg.JPG" alt="" class="img">
+                        <h4>Harsh Karwande</h4>
+                        <small>Full-Stack Developer </small>
+                    </div>
+                    &nbsp;&nbsp;&nbsp;
+                    &nbsp;
+
+                    <div class="col">
+                        <img src="assets/img/khushi.jpeg" alt="" class="img">
+                        <h4>Gaurangi Belamkar</h4>
+                        <small>Web Developer </small>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+
+                <div class="footer__data">
+                    <br>
+                    <h2 class="footer__title">Smartphone <br>Hub</h2>
+                    <p class="footer__text" style="color: rgb(0, 17, 248);">This is a Official Website Of SmartphoneHub
+                    </p>
+                </div>
+
+                <div class="footer__data">
+                    <br>
+                    <h2 class="footer__title">EXPLORE</h2>
+                    <ul>
+                        <li><a href="#home" class="footer__link">Home</a></li>
+                        <li><a href="#about" class="footer__link">About</a></li>
+                        <li><a href="#Login" class="footer__link">Login/Sign Up</a></li>
+                        <li><a href="#Contact" class="footer__link">Contact Us</a></li>
+                        <li><a href="#team" class="footer__link">Team</a></li>
+                        <br>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <br>
+                    <h2 class="footer__title">FOLLOW</h2>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                    <a href="#" class="footer__social"><i >Image Credits To : Redmi,Apple,Oneplus</i></a>
+                </div>
+
+
+            </div>
+        </footer>
+    </main>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script>
+        document.onkeydown = function (e) {
+            if (e.ctrlKey &&
+                (e.keyCode === 67 ||
+                    e.keyCode === 86 ||
+                    e.keyCode === 85 ||
+                    e.keyCode === 117)) {
+                return false;
+            } else {
+                return true;
+            }
+        };
+        $(document).keypress("u", function (e) {
+            if (e.ctrlKey) {
+                return false;
+            }
+            else {
+                return true;
+            }
+        });
+    </script>
+
+
+
+    <script type="text/javascript">
+        function disableselect(e) {
+            return false
+        }
+
+        function reEnable() {
+            return true
+        }
+
+        //if IE4+  
+        document.onselectstart = new Function("return false")
+        document.oncontextmenu = new Function("return false")
+        //if NS6  
+        if (window.sidebar) {
+            document.onmousedown = disableselect
+            document.onclick = reEnable
+        }
+    </script>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
